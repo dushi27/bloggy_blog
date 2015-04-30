@@ -1,3 +1,13 @@
+GIT
+  remote: git@github.com:msevestre/monologue_image_upload.git
+  revision: 0175e7585bebbedfcf0797882625ae421507c660
+  specs:
+    monologue_image_upload (0.4.0.beta)
+      jquery-rails
+      monologue
+      paperclip (~> 3.5.4)
+      rails (>= 4.0.0, < 4.2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -33,6 +43,10 @@ GEM
     ckeditor (4.0.11)
       mime-types
       orm_adapter (~> 0.5.0)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.7)
+      climate_control (>= 0.0.3, < 1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.0)
@@ -68,6 +82,11 @@ GEM
       truncate_html
     multi_json (1.11.0)
     orm_adapter (0.5.0)
+    paperclip (3.5.4)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.3)
+      mime-types
     polyglot (0.3.5)
     rack (1.5.2)
     rack-test (0.6.3)
@@ -152,6 +171,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   monologue
+  monologue_image_upload!
   rails (= 4.1.1)
   rspec-rails (~> 3.0)
   sass-rails (~> 4.0.3)
