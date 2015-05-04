@@ -1,9 +1,9 @@
 Monologue.config do |config|
   config.site_name = "Bloggy the Blog"
-  config.site_subtitle = "my own place online"
+  config.site_subtitle = "My own place online..."
   config.site_url = "http://example.com"
 
-  config.meta_description = "This is my blog about..."
+  config.meta_description = "Bloggy the blog is my own place online"
   config.meta_keyword = "music, fun"
 
   config.admin_force_ssl = false
@@ -16,7 +16,7 @@ Monologue.config do |config|
   config.facebook_like_locale = "en_US" # "fr_CA"
   config.google_plusone_locale = "en"
 
-  # config.layout               = "layouts/application"
+  #config.layout               = "layouts/application"
 
   # ANALYTICS
   # config.gauge_analytics_site_id = "YOUR COGE FROM GAUG.ES"
@@ -26,13 +26,14 @@ Monologue.config do |config|
 
 
   #SOCIAL
-  config.twitter_username = "myhandle"
-  config.facebook_url = "https://www.facebook.com/myhandle"
-  config.facebook_logo = 'logo.png'
-  #config.google_plus_account_url = "https://plus.google.com/u/1/.../posts"
-  #config.linkedin_url = "http://www.linkedin.com/in/myhandle"
-  #config.github_username = "myhandle"
+  config.twitter_username = nil
+  config.facebook_url = nil #"https://www.facebook.com/myhandle"
+  config.facebook_logo = nil #'logo.png'
+  config.google_plus_account_url = nil #"https://plus.google.com/u/1/.../posts"
+  config.linkedin_url = nil #"http://www.linkedin.com/in/myhandle"
+  config.github_username = nil #"myhandle"
   config.show_rss_icon = false
+  
   
   config.image_upload.max_picture_size = 2.megabytes
   config.image_upload.upload_path = "monologue"
