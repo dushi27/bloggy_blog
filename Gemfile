@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'monologue'
 gem "monologue_image_upload", :git => "git@github.com:msevestre/monologue_image_upload.git"
 gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'fullcalendar-rails', '2.0.2.0'
 
 gem 'spring',        group: :development
 
